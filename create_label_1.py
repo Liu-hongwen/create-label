@@ -8,3 +8,4 @@ with open('C:/caffe-project/Ages/label_images/labels/Age_1_5.txt','w') as label_
             label_txt.writelines(label)
 
 print "succeed"
+
