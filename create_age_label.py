@@ -30,7 +30,7 @@ with open('C:/caffe-project/Ages/label_imagess/Age_label.txt', 'w') as label_txt
                 num = 11
             elif str(dir) == "61_100":
                 num = 12
-            n += 1
+ 
             for root, dirs, files in os.walk('C:/caffe-project/Ages/label_imagess/' + str(dir)):
                 for file in files:
                     image_file = str(dir) + '\\' + str(file)
